@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+.block{
+    color: white;
+    background-color: rgb(152, 133, 133);
+    width: 400px;
+   /* height:auto; */
+  padding: 50px;
+  /* padding-top:  50px; ;
+  padding-right: 100px;
+  padding-bottom: 80px ;
+  padding-left: 100px; */
+  margin: 100px auto ;
+  /* margin-top: 100px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  margin-left: 120px; */
+/*box-sizing: content-box;*/
+text-align: center;
+line-height: 2 ;
+}
+div img{
+    width: 100px;
+    height: 100px;
+}
+p a{
+    color: orange
+    text-decoration: none;
+}
