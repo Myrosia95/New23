@@ -1,0 +1,38 @@
+h3 {
+    color: blueviolet;
+   /* background-color: black; */
+    background-color: rgb(35, 35, 35);  
+}
+/*DRY*/
+div,p{
+    color: red;
+}
+/* p{
+    color: red;
+} */
+#top{
+    background-color: black;
+}
+h3{
+    color: red;
+}
+span{
+   color: darkblue; 
+}
+section.text-container{
+    color: white;
+    background-color: black;
+    padding: 100px;
+}
+*{
+    text-decoration: underline;
+}
+ul li:first-child{
+    background: yellow;
+}
+ul li:nth-child(3){
+  background-color: aqua;  
+}
+ul li:last-child{
+    background:rgb(209, 96, 96);
+}
