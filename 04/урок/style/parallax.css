@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100% ;
+}
+main{
+    min-height: 100%;
+    padding-top : 100px;
+    background-image: url("../img/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll; 
+}
+header, section{
+padding: 50px;
+background-color: white;
+margin-bottom: 150px;
+}
