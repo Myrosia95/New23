@@ -104,7 +104,7 @@ h2{
     position: absolute;
     right: 0;
     color: #3F9AB7;
-    font-size: 12px;
+    font-size: 32px;
 }
 h1{
 color: #000;
@@ -126,7 +126,7 @@ padding-top: 24px;
 position: relative;
 padding-right: 10%;
 }
-p::before{
+.text-block p::before{
 content: '';
 display: block;
 border-radius: 4px;
@@ -209,3 +209,22 @@ text-decoration: none;
     line-height: normal;  
 }
     
+@media (max-width:1100px) {
+    header .container{
+        flex-direction: column;
+    }
+    nav{
+        padding: 50px 0;
+    }
+}
+@media (max-width:600px) {
+    nav a{
+        display: block;
+        text-align: center;
+      margin-right: 0; 
+      margin-bottom: 30px;
+      }
+      nav a:last-child{
+      margin-bottom: 0;
+      }  
+}
