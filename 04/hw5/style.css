@@ -43,27 +43,20 @@ nav a {
     font-weight: 400;
 }
 
+.active {
+    color: #BC436A;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+
+}
+
+
 nav a:hover {
     color: #BC436A;
 }
 
-.active {
-    color: #BC436A;
-    font-size: 16px;
-    font-weight: 800;
-}
-
-.block {
-    color: #767;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-button {
-    display: inline-flex;
-    padding: 8px;
-    align-items: center;
-    gap: 10px;
+nav button {
     border-radius: 4px;
     background: #386E41;
     color: #FFF;
@@ -80,6 +73,7 @@ section {
 }
 
 .circular-photo {
+    /* background-image: url(../hw5/img/Image.png); */
     position: absolute;
     left: 730px;
     top: 100px;
@@ -87,17 +81,6 @@ section {
     height: 812px;
     border-radius: 812px;
 }
-
-.circular-photo::before {
-    background-image: url(../hw5/img/chevron-right.png);
-    width: 812px;
-    height: 812px;
-    position: absolute;
-    top: 115px;
-    left: 820px;
-    border-radius: 50%;
-}
-
 
 .container {
     margin-top: 198px;
@@ -131,29 +114,76 @@ h3 {
     font-weight: 400;
 }
 
-h3 ::before {
-    content: ''
-        display: inline-block;
-    width: 120px;
-    height: 120px;
-}
-
-h3 ::after {
-    /* content: url(../hw5/img/chevron-right.png); */
+h3::after {
+    content: "";
     background-image: url(../hw5/img/chevron-right.png);
-    */ display: inline-block;
-    width: 25px;
-    height: 25px;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 24px;
+    position: absolute;
 }
 
 .filter-block-form {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 1200px;
     height: 100px;
+    width: 1200px;
+    background-color: #386E41;
     border-radius: 8px;
-    background: #386E41;
+    position: absolute;
 }
 
-input {}
+.filter-block-form select {
+    border-bottom: solid 2px white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background-color: transparent;
+    color: white;
+    width: 220px;
+    margin-right: 75px;
+    margin-left: 50px;
+
+}
+
+button {
+    display: inline-flex;
+    padding: 8px 21px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: #BC436A;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.11);
+}
+
+.destinations {
+    margin-top: 75px;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 90px;
+    position: absolute;
+    left: 685px;
+}
+
+.destinations a {
+    color: #767676;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.destinations ::before {
+    content: "";
+    background-image: url(../hw5/img/chevrons-down.png);
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 43px;
+    left: 56px;
+    margin-top: 75px;
+}
