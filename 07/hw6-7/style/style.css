@@ -1,0 +1,272 @@
+@import url(reset.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    background-color: white;
+    position: relative;
+    padding-bottom: 45px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    width: 1440px;
+    height: 1000px;
+}
+
+body::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 118px;
+    top: 0;
+    bottom: 0;
+    background: #F9F9F9;
+    z-index: -1;
+    left: 13%;
+}
+
+.container {
+    width: 82%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 55px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    display: inline-block;
+    position: relative;
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 120%;
+    /* 22.8px */
+    letter-spacing: 1px;
+    margin-right: 35px;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+nav a::after {
+    content: '';
+    opacity: 0;
+    width: 7px;
+    height: 7px;
+    background-color: #F2994A;
+    position: absolute;
+    bottom: -16px;
+    left: 48%;
+    border-radius: 100%;
+}
+
+nav a.active::after,
+nav a.hover::after {
+    opacity: 1;
+}
+
+.search-block input .search-block button {
+    background-color: white;
+    border: none;
+}
+
+.search-block button {
+    font-size: 20px;
+}
+
+.content {
+    padding: 110px 0 40px;
+}
+
+.content .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-block {
+    width: 35%;
+}
+
+.image-block img {
+    width: 100%;
+}
+
+.text-conteiner {
+    width: 52%;
+}
+
+.text-block {
+    padding-right: 10%;
+    border-right: 1px solid #333;
+}
+
+h2 {
+    color: #F2994A;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    /* 28.8px */
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text-block h2 {
+    content: '+';
+    position: absolute;
+    right: 0;
+    color: #3F9AB7;
+    font-size: 32px;
+}
+
+h1 {
+    color: #000;
+    font-family: Nunito Sans;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 120%;
+    /* 78px */
+    letter-spacing: 1px;
+    margin-bottom: 71px;
+}
+
+p {
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 180%;
+    /* 28.8px */
+    letter-spacing: 1px;
+    padding-top: 24px;
+    position: relative;
+    padding-right: 10%;
+}
+
+.text-block p::before {
+    content: '';
+    display: block;
+    border-radius: 4px;
+    background: #F2994A;
+    width: 30%;
+    height: 6px;
+    position: absolute;
+    top: 0;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 36px;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+}
+
+.video button {
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    color: #fff;
+    font-size: 36px;
+    margin-right: 20px;
+    background-color: #3F9AB7;
+    border-radius: 100%;
+}
+
+.social-link a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    position: relative;
+    text-align: center;
+    margin-bottom: 5px;
+    right: -16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.social-link a:hover {
+    background-color: #F2994A;
+    color: #fff;
+}
+
+.client {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
+    background: #3F9AB7;
+}
+
+.client-image {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.client-image:nth-child(2) {
+    left: -17px;
+}
+
+.client-image:nth-child(3) {
+    left: -40px;
+}
+
+.client strong {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.client span {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media (max-width:1100px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    nav {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width:600px) {
+    nav a {
+        display: block;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    nav a:last-child {
+        margin-bottom: 0;
+    }
+}
