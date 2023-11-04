@@ -254,10 +254,25 @@ strong {
     width: 342px;
 }
 
+// .chevron-circle {
+//     padding-left: 410px;
+//     font-size: 34px;
+
+//     i {
+//         padding-left: 29px;
+
+//         &:last-child {
+//             padding-left: 0;
+//         }
+
+//         &:hover {
+//             color: #fff;
+//         }
+//     }
+// }
 .chevron-circle {
     padding-left: 410px;
     font-size: 34px;
-
 }
 
 .chevron-circle i {
@@ -265,7 +280,7 @@ strong {
 }
 
 .chevron-circle i:hover {
-    color: #FFF;
+    color: #FFF !important;
 }
 
 .img-slide {
