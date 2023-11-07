@@ -12,16 +12,17 @@ body {
 header {
     display: flex;
     align-items: center;
-    /* width: 90%; */
     justify-content: space-between;
     margin: 0 auto;
     padding: 50px 120px;
-    /* width: 1440px; */
 }
 
 .conteiner-clear {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .logo {
@@ -44,6 +45,7 @@ nav a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .active {
@@ -69,25 +71,26 @@ nav button {
 }
 
 section {
-    display: block;
-    align-items: center;
-    padding-left: 120px;
-    width: 600px;
+    /* display: block;
+    align-items: center; */
+    margin-left: 120px;
+    width: 90%;
 }
 
 .circular-photo {
-    background-image: url(../hw5/img/Image.png);
-    position: absolute;
-    left: 720px;
-    top: 115px;
+    position: relative;
+    bottom: 200px;
     width: 812px;
     height: 812px;
     border-radius: 812px;
     background-repeat: no-repeat;
+    display: block;
+    float: right;
 }
 
 .container {
     margin-top: 198px;
+    width: 526px;
 }
 
 h1 {
