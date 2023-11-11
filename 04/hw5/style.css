@@ -71,21 +71,22 @@ nav button {
 }
 
 section {
-    /* display: block;
-    align-items: center; */
-    margin-left: 120px;
-    width: 90%;
+    display: block;
+    align-items: center;
+    padding-left: 120px;
+    width: 600px;
 }
 
 .circular-photo {
-    position: relative;
-    bottom: 200px;
-    width: 812px;
+    position: absolute;
+    right: 0;
+    top: 115px;
+    width: 720px;
     height: 812px;
     border-radius: 812px;
     background-repeat: no-repeat;
-    display: block;
-    float: right;
+    /* display: block;
+    float: right; */
 }
 
 .container {
