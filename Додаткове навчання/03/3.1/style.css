@@ -1,0 +1,170 @@
+body {
+    font-family: 'Inika', serif;
+    font-family: 'M PLUS 1', sans-serif;
+    font-family: 'Marcellus SC', serif;
+}
+
+.h1 {
+    margin: 72px 0;
+    color: #000;
+    font-family: Inika;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.line {
+    border-bottom: 5px solid #3E45E8;
+    width: 402px;
+    padding-top: 25px;
+}
+
+header {
+    padding: 31px 0;
+}
+
+.title-text {
+    color: #3E45E8;
+    font-family: M PLUS 1;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.header-span {
+    color: #E8C23E;
+    font-family: M PLUS 1;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner {
+    background-image: url(./img/image\ 1.png);
+    height: 803px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 195px;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+.content {
+    background-image: url(./img/flag.png);
+    height: 272px;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-family: Inika;
+    font-size: 48px;
+    font-weight: 700;
+    width: 71%;
+    padding-left: 31px;
+    padding-top: 2%;
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 0 94px;
+}
+
+.card {
+    border: 1px solid black;
+    width: 30%;
+    border-radius: 31px;
+    display: inline-block;
+    margin-left: 40px;
+    vertical-align: top;
+    box-shadow: 0px 4px 6px rgb(0 0 0 / 50%);
+    overflow: hidden;
+}
+
+.img-card {
+    width: 100%;
+}
+
+.card-title {
+    color: #1E8DF2;
+    font-family: Inika;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cart-subtitle {
+    color: #E8C23E;
+    font-family: Inika;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.conteiner-ua {
+    text-align: center;
+}
+
+.button-block {
+    margin-top: 41px;
+}
+
+.button {
+    border: 1px solid;
+    background-color: #2A61F0;
+    color: #FFF;
+    font-family: Inika;
+    font-size: 64px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 92px;
+}
+
+.info-block {
+    margin-top: 21px;
+    background-color: #2F4A4B;
+    height: 320px;
+    text-align: center;
+}
+
+.Line {
+    border-bottom: 5px solid #3E45E8;
+    width: 402px;
+    padding-top: 21px;
+    margin-left: 690px;
+}
+
+.email {
+    padding: 31px 24px 21px 24px;
+}
+
+.email-info {
+    color: #A89D9D;
+    font-family: Marcellus SC;
+    font-size: 36px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.phone-info {
+    color: #A89D9D;
+    font-family: Marcellus SC;
+    font-size: 36px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.social-networks {
+    border-radius: 64px;
+    padding-top: 31px;
+
+}
+
+.img-icon {
+    padding-right: 13px;
+}
+
+a {
+    text-decoration: none;
+}
