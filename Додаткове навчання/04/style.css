@@ -1,0 +1,9 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #202846;
+    height: 90px;
+}
