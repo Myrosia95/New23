@@ -101,6 +101,10 @@ button {
     box-shadow: 5px 5px 30px 0px rgba(0, 0, 255, 0.25);
 }
 
+.card:hover .star-img {
+    content: url(./img_4/img2.svg);
+}
+
 .cart-img {
     width: 485px;
     height: 244px;
@@ -132,11 +136,6 @@ span {
     margin-right: 17px;
 }
 
-.star:hover {
-    content: "url(./img_4/emojione_star.png)";
-    background-color: #FFFF00;
-}
-
 .cart-subtitle {
     margin-right: 87px;
     background-color: #D7D7DD;
@@ -164,7 +163,7 @@ p {
     bottom: 75px;
 }
 
-.details :hover {
+.card:hover .details-text {
     content: "";
     background-color: #EF075B;
     border-radius: 35px;

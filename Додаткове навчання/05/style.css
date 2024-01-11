@@ -98,8 +98,20 @@ li.nav-item>a:hover {
 
 .experience-info:hover {
     background-color: #FFB742;
-
 }
+
+.experience-info:hover .experience {
+    color: #000;
+}
+
+.experience-info:hover .numbers {
+    color: #000;
+}
+
+.experience-info:hover .chevron-right {
+    content: url(./img/entypo_chevron-right\ \(1\).png);
+}
+
 
 .emblems {
     padding: 12px;
@@ -116,10 +128,6 @@ li.nav-item>a:hover {
     text-transform: capitalize;
 }
 
-.numbers:hover,
-.experience:hover {
-    color: #000;
-}
 
 .experience {
     color: #FFF;
@@ -128,10 +136,6 @@ li.nav-item>a:hover {
     text-transform: capitalize;
     margin-right: 57px;
     text-align: center;
-}
-
-.chevron-right:hover {
-    content: url(./img/entypo_chevron-right\ \(1\).png);
 }
 
 .about-me-information {
