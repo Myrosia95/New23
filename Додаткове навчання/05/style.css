@@ -109,9 +109,9 @@ li.nav-item>a:hover {
 }
 
 .experience-info:hover .chevron-right {
-    content: url(./img/entypo_chevron-right\ \(1\).png);
-}
+    content: url(./img_5/chv.svg);
 
+}
 
 .emblems {
     padding: 12px;
