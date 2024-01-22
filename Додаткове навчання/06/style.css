@@ -528,7 +528,8 @@ input.search {
 }
 
 .search-text,
-.search-type {
+.search-type,
+.search {
     content: "";
     background-image: url(./img.svg);
     background-repeat: no-repeat;
