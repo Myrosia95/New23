@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home_work_6</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>
+                Intake Main Flow
+            </h1>
+            <h4>
+                <span class="symbol">* </span>
+                Mandatory field
+            </h4>
+            <h2>
+                Information
+            </h2>
+        </div>
+    </header>
+    <form class="information-form">
+        <div class="information">
+            <div class="intake-type">
+                <label class="form-title" for="form1">Intake Type
+                    <span class="select">
+                        * (select)
+                    </span>
+                </label>
+                <select id="form1">
+                    <option value="Referral">Referral</option>
+                    <option value="Referral">Referral</option>
+                </select>
+            </div>
+            <div class="date-info">
+                <label class="form-title" for="date">Enrollment Initiation Date jquery</label>
+                <input class="date-text" type="text" placeholder="05/11/2021" maxlength="10">
+                <!-- pattern="\d{1,2}/\d{1,2}/\d{4}" -->
+            </div>
+        </div>
+        <div class="information_1">
+            <div class="phone-info">
+                <label class="form-title" for="phone">phone</label>
+                <input class="tel" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]">
+            </div>
+            <div class="aplication_ctgr">
+                <label class="form-title" for="form2">Application Category
+                    <span class="select">
+                        *
+                    </span>
+                </label>
+                <select class="form2">
+                    <option value="Child Support">Adoption</option>
+                    <option value="Child Support">Child Support</option>
+                </select>
+            </div>
+        </div>
+        <div class="information3">
+            <div class="email-info">
+                <label class="form-title" for="email">email</label>
+                <input class="email" type="email" id="email" name="email" value="email">
+            </div>
+            <div class="optional-info">
+                <label class="form-title" for="optional">Enrollment Submission Date (Optional)</label>
+                <input class="optional-date" type="text" id="optional" placeholder="05/11/2021" maxlength="10">
+            </div>
+        </div>
+        <div class="registration-info">
+            <label class="form-title" for="registration">Application Registration (Optional)</label>
+            <select class="registration" name="registration">
+                <option value="APP0000116">APP0000116</option>
+                <option value="APP0000117">APP0000117</option>
+            </select>
+        </div>
+        <div class="additional-information">
+            <div class="requested-date">
+                <label class="form-title" for="form3">Additional Information Requested Date (Optional)</label>
+                <input class="requested-date-inpt" type="text" id="form3" name="requested-date"
+                    placeholder="05/11/2021">
+            </div>
+            <div class="purged">
+                <input class="purged-radio" type="radio" id="purged" name="purget" value="purget">
+                <label class="purged-text" for="purged">Purged</label>
+            </div>
+        </div>
+        <div class="remaining-days">
+            <div class="remaining-days-nmbr">
+                <label class="form-title" for="form4">Remaining Days Before Referral is Purged
+                    (Optional)</label>
+                <input class="remaining-days-inpt" type="text" id="form4" name="remaining-days" placeholder="13">
+            </div>
+            <div class="exempt-from-paternity">
+                <label class="form-title" for="form5">Exempt from Paternity (Optional) (select)</label>
+                <select class="form5" name="exempt-from-paternity" id="form5">
+                    <option value="no">No</option>
+                    <option value="yes">Yes</option>
+                </select>
+            </div>
+        </div>
+        <div class="optional">
+            <div class="fee-payment-date">
+                <label class="form-title" for="form6">Fee Payment Date (Optional)</label>
+                <input class="requested-date-inpt" type="text" id="form6" name="requested-date"
+                    placeholder="05/11/2021">
+            </div>
+            <div class="enrollment-status">
+                <label class="form-title" for="form7">Enrollment Status (Optional)</label>
+                <select class="enrollment-status-slct" name="enrollment-status-slct" id="form7">
+                    <option value="Worklisted">Work</option>
+                    <option value="Worklisted">Worklisted</option>
+                </select>
+            </div>
+        </div>
+        <div class="application-radio">
+            <input class="application-radio-inpt" type="radio" id="form8">
+            <label class="application-radio-text" for="form8">Application Fee Processed</label>
+        </div>
+        <div class="line"></div>
+        <p class="text-maternity-information">
+            Maternity Information
+        </p>
+        <div class="child-perent">
+            <div class="child-radio">
+                <input class="child-radio-inpt" type="radio" id="form9">
+                <label class="form9" for="form9">Are you requesting child support services for an
+                    unborn child?</label>
+            </div>
+            <div class="biological">
+                <label class="form-title" for="form10">Other known biological parent? (Optional)</label>
+                <select class="biological-slct" name="biological-slct" id="form10">
+                    <option value="None">None</option>
+                    <option value="Is">Is</option>
+                </select>
+            </div>
+        </div>
+        <div class="line"></div>
+    </form>
+    <form class="Official Use">
+        <div class="official-use">
+            <p class="official-use">Official Use</p>
+            <div class="optional-detalis-info">
+                <div class="category-info">
+                    <label class="form-title" for="form11">Case Category (select)</label>
+                    <select class="category-slct" name="category" id="form11">
+                        <option value="Active IV-A">Active IV-A</option>
+                        <option value="Active IV-B">Active IV-B</option>
+                    </select>
+                </div>
+                <div class="category-info">
+                    <label class="form-title" for="form12">IV-D Indicator*</label>
+                    <select class="category-slct" name="category" id="form12">
+                        <option value="Non-IV-D">Non-IV-D</option>
+                        <option value="Non-KU-S">Non-KU-S</option>
+                    </select>
+
+                </div>
+            </div>
+            <div class="optional-detalis">
+                <div class="category-info">
+                    <label class="form-title" for="form11">Arrears Only Indicator (Optional)</label>
+                    <select class="category-slct-text" name="category" id="form11">
+                        <option value="None">None</option>
+                    </select>
+                </div>
+                <div class="category-info">
+                    <label class="form-title" for="form12">Intergovernmental Case Category (Optional)</label>
+                    <select class="category-slct-text" name="category" id="form12">
+                        <option value="None" none-slct>None</option>
+                    </select>
+                </div>
+            </div>
+            <div class="optional-detalis">
+                <div class="category-info">
+                    <label class="form-title" for="form11">Assigned County of Ownership (Optional)</label>
+                    <select class="category-slct-text" name="category" id="form11">
+                        <option value="None">None</option>
+                    </select>
+                </div>
+                <div class="category-info">
+                    <label class="form-title" for="form12">Intergovernmental Case Type (Optional)</label>
+                    <select class="category-slct-text" name="category" id="form12">
+                        <option value="None" none-slct>None</option>
+                    </select>
+                </div>
+            </div>
+            <div class="optional-detalis">
+                <div class="category-info">
+                    <label class="form-title" for="form11">Intergovermental Case Status (details)</label>
+                    <select class="category-slct-text" name="category" id="form11">
+                        <option value="None">None</option>
+                    </select>
+                </div>
+                <div class="category-info">
+                    <label class="form-title" for="form12">Case Number</label>
+                    <input class="search" type="search" id="form11" name="form11" placeholder="Search Case Number">
+                </div>
+            </div>
+            <div class="optional-detalis">
+                <div class="category-info">
+                    <label class="form-title" for="form11">Special Handling Indicator for Applicant (Optional)</label>
+                    <select class="category-slct-text" name="category" id="form11">
+                        <option value="None">None</option>
+                    </select>
+                </div>
+                <div class="category-info">
+                    <label class="form-title" for="form12">Referral Number</label>
+                    <input class="search" type="search" id="form11" name="form11" placeholder="Search Referral Number">
+                </div>
+            </div>
+            <div class="optional-detalis">
+                <div class="category-info">
+                    <label class="form-title" for="form11">Special Handling Indicator for Applicant (Optional)</label>
+                    <select class="category-slct-text" name="category" id="form11">
+                        <option value="None">None</option>
+                    </select>
+                </div>
+            </div>
+            <div class="line"></div>
+        </div>
+    </form>
+    <form class="system-information">
+        <p class="official-use">System Information</p>
+        <div class="optional-detalis">
+            <div class="category-info">
+                <label class="form-title" for="form11">Enrollment Taken by User</label>
+                <input class="search-type" type="search" id="form11" name="form11" placeholder="Search Input">
+            </div>
+            <div class="category-info">
+                <label class="form-title" for="form11">Intake Supervisor (Optional)</label>
+                <input class="search" type="search" id="form11" name="form11" placeholder="Search">
+            </div>
+        </div>
+
+
+
+
+        <div class="optional-detalis">
+            <div class="category-info">
+                <label class="form-title" for="form11">Worker (Optional)</label>
+                <input class="search-type" type="search" id="form11" name="form11" placeholder="Search Input">
+            </div>
+            <div class="category-info">
+                <label class="form-title" for="form11">Owner (Optional)</label>
+                <input class="search-text" type="search" id="form11" name="form11" placeholder="Rajaneesh Banal">
+            </div>
+        </div>
+        <div class="next">Next</div>
+    </form>
+</body>
+
+</html>
